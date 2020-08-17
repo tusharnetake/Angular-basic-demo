@@ -1,0 +1,9 @@
+<p>Welcome to User Profile and contacts </p>
+
+<ng-container *ngFor="let route of routes">
+    <a  [routerLink] = "route.url">{{route.linkName}}</a>  
+    <span>&nbsp;&nbsp;</span>
+</ng-container>
+
+
+<router-outlet></router-outlet>
