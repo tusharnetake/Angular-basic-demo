@@ -8,7 +8,8 @@ import { LoggingService } from '../logging.service';
 })
 export class TestLogServiceComponent implements OnInit {
 
-  constructor(private service : LoggingService) {
+  constructor( private service : LoggingService) {
+    
     service.printtoConsole("Nothing Fancy Here -Just Printing Message to Console ")
    }
 

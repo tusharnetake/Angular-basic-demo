@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { NgModelComponent } from './ng-model/ng-model.component';
 
+
 import { PipeComponent } from './pipe/pipe.component';
 import { RestDemoComponent } from './rest-demo/rest-demo.component';
 import { TruncatePipe } from './truncate.pipe';
@@ -17,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoggingService } from './logging.service';
 import { TestLogServiceComponent } from './test-log-service/test-log-service.component';
 import { ViewModule } from './view/view.module';
+import { IntroductionComponent } from './introduction/introduction.component';
 
  
 @NgModule({
@@ -30,7 +32,8 @@ import { ViewModule } from './view/view.module';
     PageNotFoundComponent,
     EventComponent,
     NgForExampleComponent,
-    TestLogServiceComponent
+    TestLogServiceComponent,
+    IntroductionComponent
   ],
   imports: [
     BrowserModule,

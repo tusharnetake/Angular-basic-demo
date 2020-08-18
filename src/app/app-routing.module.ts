@@ -13,11 +13,13 @@ import { TestLogServiceComponent } from './test-log-service/test-log-service.com
 import {UserComponent } from './view/user/user.component';
 import { ProfileComponent } from './view/profile/profile.component';
 import { ContactComponent } from './view/contact/contact.component';
+import { IntroductionComponent } from './introduction/introduction.component'
 
 const routes: Route[] = [
- {path:'',redirectTo:'/data-binding',pathMatch:'full'},
+ {path:'',redirectTo:'/introduction',pathMatch:'full'},
   {path:'data-binding',component:DataBindingComponent},
   {path:'ngmodel',component:NgModelComponent},
+  {path:'introduction',component:IntroductionComponent},
   {path:'service',component:TestLogServiceComponent},
   {path:'pipe',component:PipeComponent},
   {path:'rest',component:RestDemoComponent}, 
